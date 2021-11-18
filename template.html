@@ -4,37 +4,64 @@
   <head>
     
     <style>
-      #blackbox {
-        width: 500px;
-        height: 100px;
-        background-color: black;
-        
-      }
-        
-     #redbox {
-        width: 500px;
-        height: 100px;
-        background-color: red;
-        
-      }
-
-      #goldbox {
-        width: 500px;
-        height: 100px;
-        background-color: #ffd700;
-        
-      }
       body {
         margin: 0
       }
+
+      .box1 {
+        background-color: black;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 50px;
+        
+      }
+      
+      .box2 {
+        background-color: black;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 50px;
+        
+      }
+  
+      .verticalbox {
+        width: 350px;
+        height: 200px;
+        display: inline-block;
+
+      }
+      
+      #red {
+        background-color: red;
+      }
+
+      #blue {
+        background-color: blue;
+      }
+      
+      
 
     </style>
   </head>
   
   <body>
-    <div id="blackbox"></div>
-    <div id="redbox"></div>
-    <div id="goldbox"></div>
+
+    <div class="verticalbox" id="red">
+
+      <div class="box1"></div>
+      <div class="box2"></div>
+
+    </div>
+
+    <div class="verticalbox" id="blue">
+     
+      <div class="box1"></div>
+      <div class="box2"></div>
+    
 
   </body>
 

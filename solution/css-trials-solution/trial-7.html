@@ -1,0 +1,86 @@
+<html>
+
+  <head>
+    <style>
+
+      h1 {
+        font-family: sans-serif;
+      }
+
+      .bar {
+        background-color: #555555;
+        height: 130px;
+        margin-top: 10px;
+        width: 600px;
+      }
+
+      .box {
+        background-color: #cccccc;
+        display: inline-block;
+        height: 118px;
+        margin: 6px;
+        margin-right: 0;
+      }
+
+
+      #top .box {
+        width: 32%;
+      }
+
+
+      #middle .box {
+        width: 23.75%;
+        vertical-align: top;
+      }
+
+      #middle .box:nth-child(2n) {
+        height: 75px;
+      }
+
+      #middle .box:nth-child(2n+1) {
+        height: 100px;
+      }
+
+
+      #bottom .box {
+        width: 48.5%;
+      }
+
+      #bottom .box:nth-child(1) {
+        height: 35px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <h1>AAAAAHHHHHH</h1>
+
+    <div class="bar" id="top">
+        
+      <div class="box"></div><!-- 
+   --><div class="box"></div><!-- 
+   --><div class="box"></div>
+
+    </div>
+
+    <div class="bar" id="middle">
+
+      <div class="box"></div><!-- 
+   --><div class="box"></div><!-- 
+   --><div class="box"></div><!-- 
+   --><div class="box"></div>
+
+    </div>
+
+    <div class="bar" id="bottom">
+
+      <div class="box"></div><!-- 
+   --><div class="box"></div>
+
+    </div>
+
+  </body>
+
+</html>
