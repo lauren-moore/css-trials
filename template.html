@@ -8,72 +8,27 @@
         margin: 0
       }
 
-      h1 {
-        font-family: sans-serif;
+      .largebox {
+        background-color: #cccccc;
+        height: 200px;
+        width: 900px;
+        padding: 15px 10px;
+        margin: 0 auto;
       }
-
-      .box1 {
-        height: 118px;
+     
+      .firstbox, 
+      .secondbox,
+      .thirdbox {
+        height: 180px;
+        width: 180px;
         display: inline-block;
-        margin: 6px;
-        margin-right: 0;
-        width: 32%;
-        background-color:#cccccc
-       
+        border: 10px double #555555;
       }
 
-      .middle1 {
-        height: 100px;
-        display: inline-block;
-        margin: 6px;
-        margin-right: 0;
-        width: 23.75%;
-        background-color:#cccccc ;
-        vertical-align: top;       
-      }
-
-      .middle2 {
-        height: 75px;
-        display: inline-block;
-        margin: 6px;
-        margin-right: 0;
-        width: 23.75%;
-        background-color:#cccccc;
-        vertical-align: top;
-
-      }
-  
-      .bottom1 {
-        height: 35px;
-        display: inline-block;
-        margin: 6px;
-        margin-right: 0;
-        width: 50%;
-        background-color:#cccccc;
-
-      }
-
-
-      .bottom2 {
-        height: 118px;
-        display: inline-block;
-        margin: 6px;
-        margin-right: 0;
-        width: 47%;
-        background-color:#cccccc;
-
-      }
-
-      .verticalbox {
-        width: 600px;
-        height: 130px;
-        margin-top: 10px;
-        display: inline-block;
-
-      }
-      
-      #darkgray {
-        background-color: #555555;
+      .secondbox {
+        border-style: dotted;
+        border-radius: 50%;
+        margin: 0 150px;
       }
 
     </style>
@@ -81,34 +36,14 @@
   
   <body>
 
-    <h1>AAAAAHHHHH</h1>
-    <div class="verticalbox" id="darkgray">
+    <div class="largebox">
 
-         <div class="box1"></div><!--
-      --><div class="box1"></div><!--
-      --><div class="box1"></div>
-
-    </div>
-
-  <div class="verticalbox" id="darkgray">
-
-         <div class="middle1"></div><!--
-      --><div class="middle2"></div><!--
-      --><div class="middle1"></div><!--
-      --><div class="middle2"></div>
+       <div class="firstbox"></div><!--
+    --><div class="secondbox"></div><!--
+    --><div class="thirdbox"></div>
 
     </div>
-
-
-  <div class="verticalbox" id="darkgray">
-
-       <div class="bottom1"></div><!--
-    --><div class="bottom2"></div>
-
-      </div>
     
-    </div>
-
   </body>
 
 </html>
